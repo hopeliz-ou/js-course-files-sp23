@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#photos {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+#image-link-1 {
+    background-image: url(../images/pexels-anna-shvets-5894032-thumb.jpg);
+    background-size: 75%;
+    background-position: center center;
+}
+
+#image-link-2 {
+    background-image: url(../images/pexels-marlene-leppaenen-15732664-thumb.jpg);
+    background-size: 75%;
+    background-position: center center;
+}
+
+#image-link-3 {
+    background-image: url(../images/pexels-ricardo-lima-15311317-thumb.jpg);
+    background-size: 75%;
+    background-position: center center;
+}
+
+.photo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: #ccc;
+    margin: 1rem;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+.title {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.description {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    font-size: 11pt;
+}
